@@ -21,10 +21,10 @@ vex::motor LeftFrontChassisMotor(PORT2, true);
 vex::motor LeftBackChassisMotor(PORT7, false);
 
 // Pneumatics
-vex::pneumatic armSolenoid(PORT6);
+vex::pneumatic armSolenoid(PORT5);
 
 // Sensors
-vex::gyro firstStageArmGyro(PORT5);
+vex::gyro firstStageArmGyro(PORT6);
 vex::bumper backTouchSensor(PORT12);
 
 // Controller
